@@ -82,7 +82,7 @@ const Login: React.FC = () => {
     }
 
     setError('');
-    navigate("/home");
+    navigate("/processes");
   };
 
   return (

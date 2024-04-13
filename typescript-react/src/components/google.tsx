@@ -9,7 +9,7 @@ const Google: React.FC = () => {
 
     const handleLoginSuccess = () => {
         toast.success("logged in successully");
-        navigate("http://localhost:8080/guacamole-1.5.0/");
+        navigate("/processes");
     }
 
     return (

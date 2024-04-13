@@ -1,0 +1,22 @@
+{
+  "processes": [
+    { "pid": 4000, "name": "explorer.exe", "cpu": 2.5, "memory": 1024, "status": "Running", "parent_pid": 0 },
+    { "pid": 1024, "name": "chrome.exe", "cpu": 10.2, "memory": 512, "status": "Running", "parent_pid": 0 },
+    { "pid": 32768, "name": "System Idle Process", "cpu": 0.1, "memory": 128, "status": "Running", "parent_pid": 0 },
+    { "pid": 8192, "name": "csrss.exe", "cpu": 1.3, "memory": 256, "status": "Running", "parent_pid": 0 },
+    { "pid": 16384, "name": "winword.exe", "cpu": 0.0, "memory": 2048, "status": "Idle", "parent_pid": 0 },
+    { "pid": 2048, "name": "System process", "cpu": 0.5, "memory": 64, "parent_pid": 0, "status": "Running" },
+    { "pid": 4096, "name": "taskmgr.exe", "cpu": 1.0, "memory": 128, "parent_pid": 4000, "status": "Running" },  
+    { "pid": 8193, "name": "spoolsv.exe", "cpu": 0.2, "memory": 256, "parent_pid": 0, "status": "Running" },
+    { "pid": 12288, "name": "services.exe", "cpu": 0.8, "memory": 512, "parent_pid": 0, "status": "Running" },
+    { "pid": 16385, "name": "svchost.exe", "cpu": 2.0, "memory": 1024, "parent_pid": 0, "status": "Running" },
+    { "pid": 20480, "name": "firefox.exe", "cpu": 5.0, "memory": 768, "status": "Running", "parent_pid": 0 },
+    { "pid": 24576, "name": "notepad.exe", "cpu": 0.1, "memory": 32, "status": "Running", "parent_pid": 0 },
+    { "pid": 28672, "name": "calc.exe", "cpu": 0.0, "memory": 16, "status": "Idle", "parent_pid": 0 },
+    { "pid": 32768, "name": "cmd.exe", "cpu": 0.2, "memory": 64, "parent_pid": 2048, "status": "Running" }, 
+    { "pid": 36864, "name": "powershell.exe", "cpu": 0.3, "memory": 128, "parent_pid": 16385, "status": "Running" },  
+    { "pid": 40960, "name": "steam.exe", "cpu": 15.0, "memory": 2048, "status": "Running", "parent_pid": 0 },
+    { "pid": 45056, "name": "antivirus.exe", "cpu": 2.0, "memory": 512, "status": "Running", "parent_pid": 0 },
+    { "pid": 49152, "name": "photoshop.exe", "cpu": 30.0, "memory": 4096, "status": "Running", "parent_pid": 0 }
+    ]
+}
