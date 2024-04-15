@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 import GoogleLoginButton from '../components/google';
 
@@ -62,7 +61,6 @@ const Login: React.FC = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
-  const navigate = useNavigate();
 
   const handleLogin = () => {
     if (!email.trim() || !password.trim()) {
@@ -82,7 +80,7 @@ const Login: React.FC = () => {
     }
 
     setError('');
-    navigate("/processes");
+    window.location.href = "http://192.168.136.129:8190/#/";
   };
 
   return (

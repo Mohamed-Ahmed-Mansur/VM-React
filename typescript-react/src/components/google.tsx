@@ -2,14 +2,12 @@ import React from "react";
 import { GoogleOAuthProvider } from "@react-oauth/google";
 import { GoogleLogin } from "@react-oauth/google";
 import { toast } from "react-toastify";
-import { useNavigate } from "react-router-dom";
 
 const Google: React.FC = () => {
-    const navigate = useNavigate();
 
     const handleLoginSuccess = () => {
         toast.success("logged in successully");
-        navigate("/processes");
+        window.location.href = "http://192.168.136.129:8190/#/";
     }
 
     return (
